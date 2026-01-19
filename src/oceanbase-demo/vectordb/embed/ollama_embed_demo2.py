@@ -13,7 +13,7 @@
 import ollama
 
 if __name__ == '__main__':
-    print("ollama_embed_demo2...")
+    print("ollama_embed_demo21...")
 
     texts = ["第一个句子", "第二个句子"]
     embeddings = ollama.embed(model="bge-m3", input=texts)['embeddings']
